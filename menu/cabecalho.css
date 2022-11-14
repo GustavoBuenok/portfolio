@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: black;
+    height: 100px;
+
+
+}
+
+h1{
+    color: aquamarine;
+    padding: 2,5px;
+    margin-top: 30px;
+    font-size: 30px;
+}
