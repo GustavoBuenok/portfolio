@@ -1,11 +1,13 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
     padding-left: 2em;
     padding-right: 2em;
     background-color: black;
     height: 100px;
+    width: 100%;
+    
 
 
 }
