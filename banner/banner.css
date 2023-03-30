@@ -1,8 +1,12 @@
 .banner{
-    height: 700px;
-    background-color: black;
+    height: 100vh;
+
     display: flex;
     justify-content: space-around;
     
     
     }
+
+.corpo{
+    background-color:  black;
+}

@@ -12,56 +12,83 @@
         <link rel="stylesheet" href="menu/menu.css">
         <link rel="stylesheet" href="menu/cabecalho.css">
         <link rel="stylesheet" href="banner/banner.css">
-        <link rel="stylesheet" href="banner/banner-titulo.css">
-        <link rel="stylesheet" href="banner/banner-itemum.css">
-        <link rel="stylesheet" href="banner/banner-itemdois.css">
         <link rel="stylesheet" href="banner/banner-imagem.css">
+        <link rel="stylesheet" href="banner/texto-principal.css">
         <link rel="stylesheet" href="apresentacao/apresentacao-texto.css">
         <link rel="stylesheet" href="apresentacao/apresentacao.css">
         <link rel="stylesheet" href="habilidades/habilidadaes.css">
         <link rel="stylesheet" href="habilidades/habilidades-imagem.css">
         <link rel="stylesheet" href="habilidades/habilidades-titulo.css">
         <link rel="stylesheet" href="habilidades/habilidades-icones.css">
+        <link rel="stylesheet" href="contatos/contatos.css">
+        <link rel="stylesheet" href="contatos/contatos-titulo.css">
+        <link rel="stylesheet" href="contatos/contatos-texto.css">
+        <link rel="stylesheet" href="contatos/contato-itens.css">
+
+
 
           
     
     </head>
-    <body>
+    <body class="corpo">
         <header class="cabecalho">
             <h1 class="logo">GB</h1>
                 <nav class="menu">
                     <ul class="lista-menu">
-                        <li class="item_menu"><a class="menu_link" href="">apresentação</a></li>
-                        <li class="item_menu"><a class="menu_link" href="">habilidades</a></li>
-                        <li class="item_menu"><a class="menu_link" href="">projetos</a></li>
-                        <li class="item_menu"><a class="menu_link" href="">contato</a></li>
+                        <li class="item_menu"><a class="menu_link" href="#apresentacao">apresentação</a></li>
+                        <li class="item_menu"><a class="menu_link" href="#habilidades">habilidades</a></li>
+                        <li class="item_menu"><a class="menu_link" href="#">projetos</a></li>
+                        <li class="item_menu"><a class="menu_link" href="#contatos">contato</a></li>
                     </ul>
                 </nav>
         </header>
         <section class="banner">
             <img class="banner_imagem" src="photo_free_20220829_104045.jpg" alt="">
-            <div class="banner_principal">
-                <h2 class="banner_titulo">Eu sou o</h2>
-                <p class="banner_item_um">Gustavo...</p>
-                <p class="banner_item_dois">dev front-end.</p>
-            </div>
+                <h2 class="texto_principal">
+                    Eu sou o Gustavo, Dev Front-end
+                </h2>
+            
         </section>
     
-        <section class="apresentacao">
-            <p class="apresentacao_texto">
-                Meu nome é Gustavo Bueno, tenho 19 anos e moro na cidade de São Paulo.
-Atualmente estou no primeiro semestre de engenharia de software e faço curso na Alura com a finalidade de me tornar um desenvolvedor front - end e futuramente full-stack. Sou apaixonado por tecnologia e estou em busca do meu primeiro emprego na área.
-            </p>
-        
-        </section>
-        <section class="habilidades">
-            <h2 class="habilidades_titulo">Habilidades</h2>
-            <div class="habilidades-icones">
-                <img class="habilidades_imagem" src="habilidades/icone-html.png" alt="Html">
-                <img class="habilidades_imagem" src="habilidades/icone-css.png" alt="Css">
-                <img class="habilidades_imagem" src="habilidades/icone-acessibilidade.png" alt="Acessibilidade Web">
-            </div>
-        </section>
+        <div id="apresentacao">
+            <section class="apresentacao">
+                <p class="apresentacao_texto">
+                    Meu nome é Gustavo Bueno, tenho 19 anos e moro na cidade de São Paulo.
+    Atualmente estou no primeiro semestre de engenharia de software e faço curso na Alura com a finalidade de me tornar um desenvolvedor front - end e futuramente full-stack. Sou apaixonado por tecnologia e estou em busca do meu primeiro emprego na área.
+                </p>
+            
+            </section>
+        </div>
+
+        <div id="habilidades">
+            <section class="habilidades">
+                <h2 class="habilidades_titulo">Habilidades</h2>
+                <div class="habilidades-icones">
+                    <img class="habilidades_imagem" src="habilidades/icone-html.png" alt="Html">
+                    <img class="habilidades_imagem" src="habilidades/icone-css.png" alt="Css">
+                    <img class="habilidades_imagem" src="habilidades/icone-acessibilidade.png" alt="Acessibilidade Web">
+                    <img class="habilidades-imagem" src="habilidades/icone-javascript.png" alt="javascript">
+                </div>
+            </section>
+        </div>
+        <div id="contatos">
+            <section class="contatos">
+                <h1 class="contatos-titulo">Contato</h1>
+                <img class="contatos-imagem" src="" alt="">
+                <ul class="contatos-lista">
+                    <li class="contatos_lista_itens">São Paulo - SP</li>
+                    <li class="contatos_lista_itens">Cel: (011) 95696-8122</li>
+                    <li class="contatos_lista_itens">E-mail: gustavobuenok@gmail.com</li>
+                    <li class="contatos_lista_itens"><a class="item_link" href="https://github.com/GustavoBuenok">GitHub</a></li>
+                    <li class="contatos_lista_itens"><a class="item_link" href="https://www.linkedin.com/in/gustavo-bueno-67bb08179/">Linkedin</a></li>
+                    <li class="contatos_lista_itens"><a class="item_link" href="Currículo.pdf">Curriculo</a></li>
+                </ul>
+
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+
     </body>
 
 </html>
