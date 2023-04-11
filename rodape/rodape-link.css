@@ -1,0 +1,14 @@
+.rodape-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+
+.rodape-link img {
+    flex: 1;
+    margin: 10px;
+
+}
+

@@ -1,5 +1,15 @@
 .habilidades{
     height: 100vh;
-    background-color:black;
+   
+    padding-top: 30vh;
 
+}
+
+@media(max-width:768px){
+    .habilidades{
+        height: 60vh;
+        padding: 0 0 0;
+        margin: 0 0 0;
+    
+    }
 }

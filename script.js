@@ -8,3 +8,8 @@ function typeWriter(elemento) {
 
 const titulo = document.querySelector('.texto_principal');
 typeWriter(titulo);
+
+
+
+
+

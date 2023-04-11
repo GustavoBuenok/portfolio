@@ -3,10 +3,28 @@
 
     display: flex;
     justify-content: space-around;
+    padding-top: 15vh;
+    background-image: url(pexels-pixabay-207529.jpg);
+    background-size: cover;
+    background-position: center;
+    
     
     
     }
 
 .corpo{
-    background-color:  black;
+    background-image: linear-gradient(to bottom, #222831,#393E46 );
+
 }
+
+@media (max-width:768px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        margin: 0 0 0;
+        padding: 0 0 0;
+        padding-top: 20vh;
+    }
+    
+    }

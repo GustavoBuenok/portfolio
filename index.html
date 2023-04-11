@@ -24,6 +24,13 @@
         <link rel="stylesheet" href="contatos/contatos-titulo.css">
         <link rel="stylesheet" href="contatos/contatos-texto.css">
         <link rel="stylesheet" href="contatos/contato-itens.css">
+        <link rel="stylesheet" href="projetos/projetos.css">
+        <link rel="stylesheet" href="projetos/projetos_titulo.css">
+        <link rel="stylesheet" href="projetos/projeto_slide.css">
+        <link rel="stylesheet" href="rodape/rodape.css">
+        <link rel="stylesheet" href="rodape/rodape-texto.css">
+        <link rel="stylesheet" href="rodape/rodape-link.css">
+
 
 
 
@@ -32,63 +39,69 @@
     </head>
     <body class="corpo">
         <header class="cabecalho">
-            <h1 class="logo">GB</h1>
                 <nav class="menu">
+                    <h1 class="logo">GB</h1>
                     <ul class="lista-menu">
                         <li class="item_menu"><a class="menu_link" href="#apresentacao">apresentação</a></li>
                         <li class="item_menu"><a class="menu_link" href="#habilidades">habilidades</a></li>
-                        <li class="item_menu"><a class="menu_link" href="#">projetos</a></li>
-                        <li class="item_menu"><a class="menu_link" href="#contatos">contato</a></li>
+                        <li class="item_menu"><a class="menu_link" href="#projetos">projetos</a></li>
                     </ul>
                 </nav>
         </header>
         <section class="banner">
-            <img class="banner_imagem" src="photo_free_20220829_104045.jpg" alt="">
+            <img class="banner_imagem" src="imagens/photo_free_20220829_104045.jpg" alt="Gustavo">
                 <h2 class="texto_principal">
                     Eu sou o Gustavo, Dev Front-end
                 </h2>
             
         </section>
     
-        <div id="apresentacao">
-            <section class="apresentacao">
+       
+            <section class="apresentacao" id="apresentacao">
                 <p class="apresentacao_texto">
                     Meu nome é Gustavo Bueno, tenho 19 anos e moro na cidade de São Paulo.
-    Atualmente estou no primeiro semestre de engenharia de software e faço curso na Alura com a finalidade de me tornar um desenvolvedor front - end e futuramente full-stack. Sou apaixonado por tecnologia e estou em busca do meu primeiro emprego na área.
+    Atualmente estou no segundo semestre de engenharia de software e faço curso na Alura com a finalidade de me tornar um desenvolvedor front - end e futuramente full-stack. Sou apaixonado por tecnologia e estou em busca do meu primeiro emprego na área.
                 </p>
-            
             </section>
-        </div>
+       
 
-        <div id="habilidades">
-            <section class="habilidades">
+            <section class="habilidades" id="habilidades">
                 <h2 class="habilidades_titulo">Habilidades</h2>
                 <div class="habilidades-icones">
-                    <img class="habilidades_imagem" src="habilidades/icone-html.png" alt="Html">
-                    <img class="habilidades_imagem" src="habilidades/icone-css.png" alt="Css">
-                    <img class="habilidades_imagem" src="habilidades/icone-acessibilidade.png" alt="Acessibilidade Web">
-                    <img class="habilidades-imagem" src="habilidades/icone-javascript.png" alt="javascript">
+                    <img class="habilidades_imagem" src="imagens/icone-html.png" alt="Html"> 
+                    <img class="habilidades_imagem" src="imagens/icone-css.png" alt="Css">
+                    <img class="habilidades_imagem" src="imagens/icone-javascript.png" alt="JavaScript">
+                    <img class="habilidades-imagem" src="imagens/icone-acessibilidade.png" alt="Acessibilidade Web">
                 </div>
             </section>
-        </div>
-        <div id="contatos">
-            <section class="contatos">
-                <h1 class="contatos-titulo">Contato</h1>
-                <img class="contatos-imagem" src="" alt="">
-                <ul class="contatos-lista">
-                    <li class="contatos_lista_itens">São Paulo - SP</li>
-                    <li class="contatos_lista_itens">Cel: (011) 95696-8122</li>
-                    <li class="contatos_lista_itens">E-mail: gustavobuenok@gmail.com</li>
-                    <li class="contatos_lista_itens"><a class="item_link" href="https://github.com/GustavoBuenok">GitHub</a></li>
-                    <li class="contatos_lista_itens"><a class="item_link" href="https://www.linkedin.com/in/gustavo-bueno-67bb08179/">Linkedin</a></li>
-                    <li class="contatos_lista_itens"><a class="item_link" href="Currículo.pdf">Curriculo</a></li>
-                </ul>
 
+            <section class="projetos" id="projetos"> 
+                <h3 class="projetos_titulo">Projetos</h3>
+                <div class="projetos_imagens">
+                    <div class="projeto_imagem_calculo_imc">
+                        <img src="imagens/calculo-imc.png" alt="">
+                        <a href="https://github.com/GustavoBuenok/calculo_de_imc"><p class="projeto-frase">Calculo IMC</p></a>
+                    </div>
+                     <div class="projeto_imagem_lista_de_compras">
+                        <img src="imagens/lista-de-compras.png" alt="">
+                        <a href="https://github.com/GustavoBuenok/lista_de_compras"><p class="projeto-frase">Lista de compras</p></a>
+                    </div>   
+                </div>
+                
             </section>
-        </div>
-
-        <script src="script.js"></script>
 
     </body>
+
+    <footer class="rodape">
+        <p class="rodape-texto">GB</p>
+        <div class="rodape-link">
+            <a href="Currículo.pdf"><img class="imagem1" src="imagens/curriculo-e-cv.png" alt="curriculo"></a>
+            <a href="https://github.com/GustavoBuenok"><img class="imagem2" src="imagens/github.png" alt="github"></a>
+            <a href=""><img class="imagem3" src="imagens/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.linkedin.com/in/gustavo-bueno-67bb08179/"><img class="imagem4" src="imagens/logotipo-do-linkedin.png" alt="linkedin"></a>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
 
 </html>
